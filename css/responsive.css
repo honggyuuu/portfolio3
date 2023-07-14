@@ -1,0 +1,256 @@
+@charset "utf-8";
+@media screen and (max-width: 1550px ) {
+    html {
+        font-size: 14px;
+    }
+    .main-text h1::after {
+        width: 12px;
+        height: 25px;
+        left: 185px;
+        top: 30px;
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(1) {
+        width: 42%;
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(2) {
+        /* width: 68% */ 
+    }
+}
+@media screen and (max-width: 1250px ) {
+    main .contents .contents-inner {
+        display: block;
+      }
+      main .contents .contents-inner .imgsection {
+        width: 80%;
+        margin: 0 auto;
+      }
+      main .contents .contents-inner .textsection {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        /* background-color: aqua; */
+      }
+      main .contents .contents-inner .textsection .texttop {
+        margin-top: 10%;
+      }
+      main .contents .contents-inner .textsection .texttop ul:nth-child(1) {
+        width: 32%;
+        margin-left: 11%;
+      }
+      main .contents .contents-inner .textsection .texttop ul:nth-child(2) {
+
+      }
+     
+}
+@media screen and (max-width: 850px ) {
+ 
+    html {
+        font-size: 12px;
+    }
+    .main-text h1::after {
+        width: 12px;
+        height: 20px;
+        left: 157px;
+        top: 26px;
+    }
+    main .contents .contents-inner .textsection {
+        max-width: 700px;
+    }
+    .popup .profile .profile-inner {
+        height: 100%;
+    }
+    .popup .profile .profile-inner .profile-inner-photo {
+        display: none;
+    }
+   
+    .popup .profile .profile-inner .profile-inner-photo-responsive {
+        display: block;
+    }
+    .popup .profile .profile-inner .profile-inner-text {
+        width: 100%;
+        padding: 20px;
+    }
+    .popup .profile .profile-inner .profile-inner-wrapper {
+        display: block;   
+    }
+}
+@media screen and (max-width: 670px) {
+    html {
+        font-size: 11px;
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(1) {
+        width: 170px;
+        margin-left: 15%;
+        /* background-color: bisque; */
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(1) li {
+
+    } 
+    main .contents .contents-inner .textsection .texttop ul:nth-child(2) {
+        width: 230px
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(2) li {
+        padding: 8px;
+    }
+    main .contents .contents-inner .textsection .textbtn {
+        margin: 2% 0 0 15%;
+    }
+    main .contents .contents-inner .textsection .textbtn .btn {
+        width: 120px;
+        height: 32px;
+        line-height: 35px;
+    }
+}
+@media screen and (max-width: 530px) {
+    main .contents .contents-inner {
+        width: 100%;
+    }
+ 
+
+    main .contents .contents-inner .imgsection {
+        width: 90%;
+        margin: 0 auto;
+    }
+ 
+    main .contents .contents-inner .textsection {
+        width: 400px;
+        margin: 0 auto;
+        /* background-color: aqua; */
+    }
+    main .contents .contents-inner .textsection .texttop {
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(1) {
+        margin-left: 5%;
+    }
+    main .contents .contents-inner .textsection .textbtn {
+        margin: 2% 0 0 5%;
+    }
+    /*상세페이지 정렬 */
+    main .productpage-design .contents {
+        display: block;
+        width: 90%;
+    }
+    main .productpage-design .contents a {
+        width: 100%;
+        /* background-color: #b118b6; */
+        margin: 0 auto;
+       
+      }
+    main .productpage-design .contents a:nth-child(1) {
+        border-radius: 20px 20px 20px 20px;
+    }
+    main .productpage-design .contents a:nth-child(2) {
+        border-radius: 20px 20px 20px 20px;
+    }
+    main .productpage-design .contents a:nth-child(3) {
+        border-radius: 20px 20px 20px 20px;
+        margin-bottom: 10px;
+    }
+    main .productpage-design .contents a:nth-child(4) {
+        border-radius: 20px 20px 20px 20px;
+    }
+}
+@media screen and (max-width: 440px) {
+    header {
+        /* 100vh는 기기상의 화면높이 100% */
+        height: 70vh;
+        /* background-color: aqua; */
+    }
+    html {
+        font-size: 10px;
+    }
+    .circle-wrap {
+        margin: 0px auto;
+    }
+    .circle-wrap .circle.mid {
+        display: none;
+    }
+    .circle-wrap .circle {
+        width: 40%;
+    }
+    .circle-wrap .circle p {
+        padding: 35% 0;
+    }
+    main .section {
+        margin-top: 35%;
+      }
+
+    .main-text h1::after {
+        width: 8px;
+        height: 16px;
+        left: 132px;
+        top: 21px;
+    }
+    main .title h1::after {
+        width: 240px;
+        height: 20px;
+        bottom: 0px;
+        left: 50%;
+        border-radius: 8px;
+    }
+    main .redisign-coding .title h1::after {
+        width: 280px;
+    }
+    main .application-design .title h1::after {
+        width: 330px;
+    }
+    main .productpage-design .title h1::after {
+        width: 360px;
+    }
+    main .other .title h1::after {
+        width: 120px;
+    }
+    main .contents {
+        margin-top: 20%;
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(1) li:nth-child(2), li:nth-child(3), li:nth-child(4) {
+        display: none;
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(2) li:nth-child(2), li:nth-child(3), li:nth-child(4) {
+        display: none;
+    }
+    main .contents .contents-inner .textsection {
+        width: 300px;
+        margin: 0 auto;
+        /* background-color: aqua; */
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(1) {
+        width: 100px;
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(1) li {
+        padding: 3px;
+    } 
+    main .contents .contents-inner .textsection .texttop ul:nth-child(2) {
+        width: 65%
+    }
+    main .contents .contents-inner .textsection .texttop ul:nth-child(2) li {
+        padding: 5px;
+    }
+    main .contents .contents-inner .textsection .textbtn .btn {
+        width: 100%;
+        height: 28px;
+        line-height: 30px;
+        border-radius: 8px;
+    }
+
+    main .contents .contents-inner .textsection .texttop ul:nth-child(1) .front::before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-color: #ffd43c;
+        z-index: -1;
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        border-radius: 20px;
+        animation: pump 1.2s linear infinite;
+      }
+      @keyframes pump {
+        0% {transform: scale(0.8);}
+        25%{transform: scale(0.8);}
+        50% {transform: scale(1.1);}
+        75% {transform: scale(0.8);}
+        100% {transform: scale(0.8);}
+      }
+}

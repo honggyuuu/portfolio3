@@ -1,0 +1,85 @@
+@charset  "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.quick-menu {
+    width: 200px;
+    height: 250px;
+    position: fixed;
+    top: 40%
+    
+}
+.quick-menu ul {}
+.quick-menu ul .quick-icon {
+    display: flex;
+    margin-top: 1px;
+}
+.quick-menu ul .quick-icon a {
+    
+}
+.quick-menu ul .quick-icon .imgbox {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    background-color: rgb(46, 150, 205);
+    cursor: pointer;
+    z-index: 999;
+}
+.quick-menu ul .quick-icon img {
+    width: 50px;
+    height: 50px;
+    transition: all 0.4s;
+}
+.quick-menu ul li .imgbox:hover img {
+    filter: brightness(0%);
+}
+.quick-menu ul li .imgbox:hover {
+    background-color: white;
+}
+.quick-menu ul li:hover li {
+    background-color: rgb(255, 255, 255);
+}
+.quick-menu ul li:hover img {
+    filter: brightness(0%);
+}
+.quick-menu ul li:hover .imgbox {
+    background-color: white;
+}
+.quick-menu ul .quick-icon:hover .sub li a {
+    color: black;
+}
+
+.quick-menu ul .quick-icon .sub {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(46, 150, 205);
+    /* display: none; */
+    translate: -150px;
+    transition: all 0.3s;
+}
+.quick-menu ul:hover .sub {
+    translate: 0px;
+}
+
+
+.quick-menu ul .quick-icon .sub li {
+    /* background-color: black; */
+    height: 50px;
+    cursor: pointer;
+}
+.quick-menu ul .quick-icon .sub li a {
+    line-height: 47px;
+    padding-left: 5px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+

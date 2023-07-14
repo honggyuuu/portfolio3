@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>randysdonut</title>
+    <link rel="stylesheet" href="css/randysdonut.css">
+    <!-- 1.Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="container1">
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">BRAND</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">POP CULTURE</a></li>
+                        <li><a href="#">STORE</a></li>
+                        <li><a href="#">EVENT</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger">
+                    <div class="btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="main-slide">
+                    <!-- 2.Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        <!-- <div class="swiper-slide"><iframe width="100%" height="100%" src="images/iron-man-donut.mp4" frameborder="0"></iframe></div> -->
+                        <div class="swiper-slide"><img width="100%" height="100%" src="images/mainslide1.jpg" alt="메인슬라이드2"></div>
+                        <div class="swiper-slide"><img width="100%" height="100%" src="images/mainslide2.jpg" alt="메인슬라이드3"></div>
+                        </div>
+                        
+                        <div class="btn-next"></div>
+                        <div class="btn-prev"></div>
+                    </div>
+                    <!-- 3. Swiper JS -->
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                    <!-- 4. Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper(".mySwiper", {
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                        keyboard: true,
+                        loop: true, //무한반복
+                        });
+                    </script>
+                </div>
+                <div class="signature">
+                    <div class="signature-text">
+                        <h2>SIGNATURE <span>MENU</span></h2>
+                        <p>랜디스 도넛의 시그니쳐 메뉴를 지금 만나보세요</p>
+                    </div>
+                    <div class="new-btn-next"></div>
+                    <div class="new-btn-prev"></div>
+                    <div class="btn-centerbar"></div>
+                    <div class="signature-slide">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="text1">크림사탕 도넛</p>
+                                <p class="text2">Sugar Coated Jelly</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="text1">스프링 어니언 도넛</p>
+                                <p class="text2">Spring Onion Raised</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="text1">딸기필링 도넛</p>
+                                <p class="text2">Strawberry Jelly Filled</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="text1">스모어 도넛</p>
+                                <p class="text2">S'mores Raised</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="text1">카라멜 코코넛 도넛</p>
+                                <p class="text2">Caramel RaisedW
+                                    <br>Coconut & Chocolate
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="text1">애월 녹차 필링</p>
+                                <p class="text2">Aewol greentea jelly filled</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="text1">가나슈</p>
+                                <p class="text2">White ganache</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="text1">초코 크런치 스트로베리</p>
+                                <p class="text2">Chocolate crunchy strawberry</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="text1">누텔라</p>
+                                <p class="text2">Nutella</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="text1">글래이즈</p>
+                                <p class="text2">Glazed</p>
+                            </div>
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                            
+                        </div>
+                        <!-- Swiper JS -->
+                        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                        <!-- Initialize Swiper -->
+                        <script>
+                            var swiper = new Swiper(".mySwiper2", {
+                            scrollbar: {
+                                el: ".swiper-scrollbar",
+                            },
+                            slidesPerView: 5,
+                            mousewheel: true,
+                            spaceBetween: 35,
+                            keyboard: true,
+                            loop: true, //무한반복
+                            
+                            navigation: {
+                            nextEl: ".new-btn-next",
+                            prevEl: ".new-btn-prev",
+                        },
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="landmark">
+                    <div class="animated-title">
+                        <div class="track">
+                          <div class="content">&nbsp;RANDY'S DONUT&nbsp;RANDY'S DONUT&nbsp;RANDY'S DONUT&nbsp;RANDY'S DONUT&nbsp;RANDY'S DONUT&nbsp;RANDY'S DONUT</div>
+                        </div>
+                    </div>
+                    <div class="landmark-img">
+                        <div class="landmark1"></div>
+                        <div class="landmark2"></div>
+                        <div class="landmark3"></div>
+                        <div class="landmark4"></div>
+                        <div class="landmark5"></div>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="about-text">
+                        <p>랜디스 도넛 소개 </p>
+                        <p>About <br> RANDY'S DONUT</p>
+                        <span></span>
+                        <p>1952년부터 미국 로스앤젤레스의 아이콘으로 자리잡은 <br>
+                        수제 도넛 브랜드, 랜디스도넛만의 특별함을 만나보세요.</p>    
+                    </div>
+                    <div class="about-contents">
+                        <div class="about-contents-1">
+                            <div class="about-contents-frame">
+                                <div class="about-contents-1-img"></div>
+                            </div>
+                            <p>브랜드 스토리</p>
+                            <p>프리미엄 수제도넛 랜디스도넛 소개입니다.</p>
+                        </div>
+                        <div class="about-contents-2">
+                            <div class="about-contents-frame">
+                                <div class="about-contents-2-img"></div>
+                            </div>
+                            <p>매장 소개</p>
+                            <p>랜디스도넛의 매장을 확인하실 수 있습니다.</p>
+                        </div>
+                        <div class="about-contents-3">
+                            <div class="about-contents-frame">
+                                <div class="about-contents-3-img"></div>
+                            </div>
+                            <p>프랜차이즈</p>
+                            <p>카페 프렌차이즈 안내입니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="event-text">
+                        <h2><span>RANDY'S</span> EVENT</h2>
+                        <p>카페 랜디스 도넛의 다양한 혜택과 이벤트를 만나보세요. </p>
+                    </div>
+                    <div class="event-contents">
+                        <div class="event-contents-frame">
+                            <div class="event-contents-img">
+                                <img src="images/event1.jpg" alt="이벤트 이미지1">
+                            </div>
+                            <div class="event-contents-text">
+                                <p>달력 및 에코백 증정 <br>
+                                크리스마스 이벤트 </p>
+                                <p>2023.04.01-2023.04.03</p>
+                                <span></span>
+                                <p>2만원 이상 구매 시, 달력과 에코백을 드립니다. </p>
+                            </div>
+                        </div>
+                        <div class="event-contents-frame">
+                            <div class="event-contents-img">
+                                <img src="images/event2.png" alt="이벤트 이미지2">
+                            </div>
+                            <div class="event-contents-text">
+                                <p>도넛 구매자 대상 에코백 무료 <br> 증정 이벤트 </p>
+                                <p>2023.03.12-2023.03.18</p>
+                                <span></span>
+                                <p>특별한 크리스마스 도넛을 만나보세요!</p>
+                            </div>
+                        </div>
+                        <div class="event-contents-frame">
+                            <div class="event-contents-img">
+                                <img src="images/event3.png" alt="이벤트 이미지3">
+                            </div>
+                            <div class="event-contents-text">
+                                <p>달력 및 에코백 증정 <br> 크리스마스 이벤트 </p>
+                                <p>2022.12.24-2022.12.26</p>
+                                <span></span>
+                                <p>도넛 구매 시, 에코백 무료 증정</p>
+                            </div>
+                        </div>
+                        <div class="event-contents-frame">
+                            <div class="event-contents-img">
+                                <img src="images/event4.png" alt="이벤트 이미지4">
+                            </div>
+                            <div class="event-contents-text">
+                                <p>크리스마스 케이크 도넛 <br> 사전 예약 이벤트 </p>
+                                <p>2022.12.19-2022.12.31</p>
+                                <span></span>
+                                <p>매일 선착순 100명 도넛 무료 증정</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="interior">
+                    <div class="interior-background1">
+                        <div class="btn-next"></div>
+                        <div class="btn-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="interior-inner">
+                        <div class="interior-text">
+                            <p>랜디스 도넛 인테리어</p>
+                            <h2>RANDY'S DONUT <br>INTERIOR</h2>
+                            <p>랜디스 도넛만의 개성있는 인테리어를 소개합니다.</p>
+                        </div>
+                        <div class="interior-slide">
+                             <!-- Swiper -->
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide interior1"></div>
+                                <div class="swiper-slide interior2"></div>
+                                <div class="swiper-slide interior3"></div>
+                                </div>
+                            </div>
+                              <!-- Swiper JS -->
+                            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                            <!-- Initialize Swiper -->
+                            <script>
+                                var swiper = new Swiper(".mySwiper", {
+                                cssMode: true,
+                                navigation: {
+                                    nextEl: ".btn-next",
+                                    prevEl: ".btn-prev",
+                                },
+                                pagination: {
+                                    el: ".swiper-pagination",
+                                },
+                                mousewheel: true,
+                                keyboard: true,
+                                loop: true, //무한반복
+                                
+                                });
+                            </script>
+                        </div>
+                     
+                        <div class="interior-background2"></div>
+                    </div>
+                   
+                </div>
+                <div class="sns">
+                    <div class="sns-text">
+                        <h2>RANDY'S <span>SNS</span></h2>
+                        <p>랜디스 도넛 SNS계정을 팔로워 해보세요</p>
+                    </div>
+                    <div class="sns-contents">
+                        <div class="sns-contents-top">
+                            <div class="sns-contents-img"></div>
+                            <div class="sns-contents-img"></div>
+                            <div class="sns-contents-img"></div>
+                            <div class="sns-contents-img"></div>
+                            <div class="sns-contents-img"></div>
+                        </div>
+                        <div class="sns-contents-bottom">
+                            <div class="sns-contents-img"></div>
+                            <div class="sns-contents-img"></div>
+                            <div class="sns-contents-img"></div>
+                            <div class="sns-contents-img"></div>
+                            <div class="sns-contents-img"></div>
+                        </div>
+                    </div>
+                    <div class="sns-icon">
+                        <p>Follow us</p>
+                        <span></span>
+                        <img src="images/insta-icon.png" class="icon1" alt="인스타 아이콘">
+                        <img src="images/youtube-icon.png" class="icon2" alt="인스타 아이콘">
+                        <img src="images/facebook-icon.png" class="icon3" alt="인스타 아이콘">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer-topline"></div>
+                <div class="footer-main">
+                    <div class="footer-main-inner">
+                        <a href="#"><h3>RANDY'S DONUT</h3></a>
+                        <div class="footer-sns-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                           
+                        </div>
+                        <div class="copyright">
+                            <p>주소 : 서울특별시 마포구 동교로 247 4층, 5층 ㅣ 사업자 등록번호 565-87-01114 ㅣ 대표번호 : 02-6954-0621 ㅣ 대표메일 : randysdonuts@rapport-l.com
+                            </p>
+                            <p>COPYRIGHT &copy; 2019,RANDY'S DONUTS. All Rights Reserved </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
